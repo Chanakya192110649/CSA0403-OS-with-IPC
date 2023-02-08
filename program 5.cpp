@@ -39,3 +39,8 @@ int main() {
     return 0;
 }
 
+//The burst time of a process is the amount of time the process needs to complete its execution. In other words, it's the amount of CPU time required by a process.
+
+//In real-life scenarios, the burst time is usually estimated based on the process's requirements, such as its computational needs, input/output operations, memory accesses, and so on. The actual burst time can be measured while the process is running, and can be used to fine-tune the scheduling algorithms.
+
+//In this program, the burst time of each process is entered by the user. The program then uses the burst time to determine the order of execution of the processes using the shortest job first (SJF) algorithm.
